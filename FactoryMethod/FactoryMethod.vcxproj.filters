@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factory">
+      <UniqueIdentifier>{80b61d09-ddaf-4125-ab32-38b10856ee5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interfaces">
+      <UniqueIdentifier>{351a2805-8ede-4d77-bb5c-c1cbc19cad41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Means">
+      <UniqueIdentifier>{09f53eb3-1b29-49b6-a3dd-223d873f53a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FactoryMethod.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MashineGunFactory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TankFactory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="IMean.h">
+      <Filter>Файлы заголовков\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeanFactory.h">
+      <Filter>Файлы заголовков\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MashineGun.h">
+      <Filter>Файлы заголовков\Means</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Файлы заголовков\Means</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryFactory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
